@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ValleCampings</string>
+
+    <string name="titular">ValleCampings</string>
+    <string name="titular2">Bienvenido</string>
+
+    <string name="inicio">Inicio</string>
+    <string name="donar">" Donar"</string>
+    <string name="action_settings">"Settings"</string>
+    <string name="valorar">"Valorar"</string>
+    <string name="salir">"Salir"</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

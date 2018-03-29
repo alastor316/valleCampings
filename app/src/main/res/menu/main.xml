@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/favoritos"
+        android:title="Favoritos"
+        android:orderInCategory="96" app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/set_donate"
+        android:title="@string/donar"
+        android:orderInCategory="97" app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/valorar"
+        android:title="@string/valorar"
+        android:orderInCategory="98" app:showAsAction="never" />
+
+
+
+
+
+</menu>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/titular"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:textAlignment="center"
+            android:background="#FF03A9F4"
+            android:elevation="10dp"
+            android:gravity="center_vertical|right"
+            android:paddingRight="20dp"
+            android:text="@string/titular"
+            android:textColor="#FFFFFF"
+            android:textSize="45sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/capa2"
+        android:gravity="center"
+        android:background="#FFEB3B"
+        android:elevation="5dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titular2"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:id="@+id/textView">
+
+        </TextView>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        >
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/pipol2"
+
+            android:layout_alignParentBottom="true"
+            android:scaleType="centerCrop"/>
+
+
+        <Button
+            android:id="@+id/btnIniciar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="65dp"
+            android:background="#00BCD4"
+            android:elevation="4dp"
+            android:text="Iniciar"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

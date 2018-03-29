@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardviewFav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:weightSum="10">
+
+            <ImageView
+                android:id="@+id/imageviewFav"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="3"
+                android:scaleType="fitXY"
+                android:src="@drawable/a" />
+
+
+            <TextView
+                android:id="@+id/titleeesFav"
+                style="@style/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:alpha="0.7"
+                android:background="#5c1b1b1b"
+                android:padding="2dp"
+                android:text="Hola mundo"
+                android:layout_above="@+id/tvDescripcionFav"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/tvDescripcionFav"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageviewFav"
+                android:layout_marginTop="4dp"
+                android:text="Este texto es de pruebas,Este texto es de pruebas,Este texto es de pruebas,Este texto es de pruebas,Este texto es de pruebas,Este texto es de pruebas,Este texto es de pruebas"
+                android:textColor="#000"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
